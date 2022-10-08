@@ -1,0 +1,19 @@
+name: Calculator clone
+tags: ["HTML","CSS","JavaScript"]
+starter-files: https://github.com/Saunakkk/calculator-clone 
+type: frontend
+level: easy
+cover-image: https://raw.githubusercontent.com/codedamn-projects/calculator-clone/main/assets/desktop-design.jpg
+short-description: Calculator clone using HTML, CSS and JavaScript
+long-description: |
+  This is a Calculator clone using HTML, CSS and JavaScript
+  
+  This project focuses HTML, CSS & JS. Javascript is really important in this since it allows the app to be functional
+    
+# https://codedamn.com/projects specific section
+codedamn:
+    helper-learning-path: frontend
+    show-community-banner: true
+    playground-layout: terminal-editor-browser
+    playground-image: html
+    guided: true
