@@ -1,0 +1,91 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(90deg, rgb(78, 143, 240) 30%, rgb(83, 233, 54));
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  font-weight: 700;
+}
+
+.wrapper {
+  width: 315px;
+  background-color: aliceblue;
+}
+
+.display {
+  background-color: rgb(47, 61, 45);
+  height: 75px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.display-text {
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttons > button {
+  background-color: rgb(174, 198, 207);
+  flex-basis: 75px;
+  text-align: center;
+  height: 60px;
+  cursor: pointer;
+  border: 0;
+  font-size: 1.5rem;
+}
+
+.buttons > button:hover {
+  background-color: rgb(133, 192, 216);
+}
+
+.ac,
+.equal {
+  flex-basis: 155px !important;
+}
+
+.operator {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+.partial {
+  opacity: 0.3;
+}
+
+.fullVisible {
+  opacity: 1;
+}
+
+input[type="text"] {
+  height: 10px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  text-align: right;
+  pointer-events: none;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
